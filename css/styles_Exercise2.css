@@ -1,0 +1,289 @@
+* {
+    margin: 0px;
+    
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end; 
+    margin: 20px;
+    justify-content: space-between;
+    
+}
+
+.navigation img {
+    width: 25px;
+    height: 25px;
+}
+
+.navigation p {
+    font-size: large;
+    font-weight: 600;
+}
+
+.navigation section {
+    display: flex;
+    align-items: center;
+    /* margin-right: 15px; */
+}
+
+.payground{
+    display: flex;
+    align-items:flex-end;
+}
+
+.payground > img {
+    width: 50px;
+    height: 50px;
+    align-items:flex-end;
+}
+.payground p {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.dropdown{
+    display: flex;
+}
+
+.body {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body h1 {
+    font-size: 70px;
+}
+
+.body p {
+    font-size: 25px;
+}
+
+.body > div {
+    margin-right: 70px;
+}
+
+.body img {
+    width: 40vw;
+    height: 85vh;
+    border-radius: 30px;
+}
+
+.svg {
+    width: 55%;
+}
+
+.body2 {
+    display: flex;
+    margin-right: 70px;
+    margin-bottom: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* padding-left: 60px; */
+    align-items: center;
+    justify-content:center;
+}
+
+.body2 h1{
+    font-size: 50px;
+}
+
+.body2 p {
+    font-size: 20px;
+}
+
+.phone img {
+    width: 35vw;
+    height: 100vh;
+}
+
+
+.btn{
+    display: flex;
+}
+.btn1{
+    font-size: 17px;
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.btn2 {
+    font-size: 17px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(27, 27, 115);
+    margin-left: 10px;
+    color: white;
+}
+
+.testimonial {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 60px;
+    padding: 60px;
+    margin: 30px 50px 0px 50px;
+    
+
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 250, 243);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.box img,p {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 50px;
+}
+.title p {
+    font-size: 30px;
+}
+.testimonial img {
+    width: 25px;
+    height: 25px;
+    
+}
+
+.testimonial p {
+    font-size: 25px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 60px;
+    padding: 60px;
+    margin: 30px 50px 0px 50px;
+}
+
+.row img {
+    width: 150px;
+    height: 150px;
+}
+
+.row p {
+    font-size: 20px;
+}
+
+.frame {
+    padding: 40px;
+    width: auto;
+    height: 900px;
+    background-color: rgb(27, 27, 115);
+    color: white;
+    position: relative;
+}
+
+.frame h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.frame p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.frame sup {
+    font-size: 10px;
+}
+
+.btn3 {
+    font-size: 17px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(27, 27, 115);
+    text-align: center;
+}
+
+.frame img {
+    border-radius: 20px 20px 0px 0px;
+    align-self: center;
+    width: auto;
+    height: 500px;
+    position: absolute;
+    bottom: 0%;
+}
+
+.btn4 {
+    font-size: 17px;
+    width: 230px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: rgb(27, 27, 115);
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: flex-start;
+}
+
+.txt2 {
+    font-size: 60px;
+}
+
+.medical {
+    color: lightblue;
+}
+
+footer {
+    width: auto;
+    height: 500px;
+    padding: 30px;
+    background-color: ghostwhite;
+}
+
+footer h1 {
+    
+}
+
+footer ul, li, a {
+    list-style: none;
+    color: black;
+    text-align: start;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.bottom {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.social img {
+    width: 20px;
+    height: 20px;
+}
+
+.logoname img{
+    margin: 0;
+    height: 50px;
+}
+
