@@ -31,8 +31,7 @@
 }
 
 .nav a:hover {
-    color:blueviolet;
-    opacity: 0.5;
+    color:rgb(144, 52, 230);
 }
 
 .nav a img:hover {
@@ -114,6 +113,7 @@
 .btn{
     display: flex;
 }
+
 .btn1{
     font-size: 17px;
     width: 100px;
@@ -121,6 +121,10 @@
     border-radius: 10px;
     background-color: transparent;
     cursor: pointer;
+}
+
+.btn1:hover {
+    font-weight: bolder;
 }
 
 .btn2 {
@@ -132,6 +136,10 @@
     margin-left: 10px;
     color: white;
     cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: rgb(41, 41, 68);
 }
 
 .title {
@@ -246,6 +254,14 @@
     top: 200px;
 }
 
+.frame button:hover {
+    background-color: rgb(249, 227, 185);
+}
+
+.frame a {
+    text-decoration: none;
+}
+
 .frame img {
     border-radius: 20px 20px 0px 0px;
     width: auto;
@@ -304,6 +320,14 @@
     align-items: flex-start;
 }
 
+.btn4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn4:hover {
+    background-color: rgb(41, 41, 68);
+}
 footer {
     width: auto;
     height: 550px;
@@ -322,8 +346,12 @@ footer {
 }
 .pay a{
     font-weight: bold;
+    color: rgb(45, 45, 123);
 }
-.botto + p {
+.pay a:hover{
+    text-decoration: none;
+}
+.bottom + p {
     flex-wrap: wrap;
     grid-column-start: auto;
 }
@@ -332,6 +360,10 @@ footer ul, li a {
     color: black;
     text-align: start;
     text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration:underline;
 }
 
 footer li {
@@ -359,8 +391,17 @@ footer ul {
     opacity: 0.5;
 }
 
+.social img:hover {
+    opacity: 1;
+}
+
+
 .social p{
     font-size: 20px;
+}
+
+.social a:hover {
+    text-decoration: none;
 }
 
 .pay img {
@@ -388,6 +429,14 @@ footer ul {
     position: absolute;
     bottom: 40px;
     right: 90px;
+}
+
+.copy a {
+    text-decoration: none;
+    color: black;
+}
+.copy a:hover {
+    text-decoration: underline;
 }
 
 .soc{

@@ -1,42 +1,18 @@
-.container1 {
-    margin: 0;
-    width: 400px;
-    background-color: white;
-    position: relative;
-    
-}
-
 .flag {
     width: 400px;
     height: 100px;
 }
 
-.Eth_box1 {
-    background-color: green; 
-    border-radius: 40px 40px 0px 0px;
+body {
+    padding: 200px 50px 100px 540px;
 }
 
-.Eth_box2 {
-    background-color: yellow;
+body h1 {
+    margin-left: 300px;
+    font-size: 60px;
 }
 
-.Eth_box3 {
-    background-color: red;
-    border-radius: 0px 0px 40px 40px;
-}
-
-.circle {
-    width: 140px;
-    height: 140px;
-    border-radius: 70px;
-    background-color: blue;
-    position: absolute;
-    top: 80px;
-    left: 130px;
-    /* justify-content: center; */
-}
-
-.container2 {
+.container {
     margin: 0;
     width: 400px;
     height: 300px;
@@ -156,73 +132,3 @@
     left: 0px;
 }
 
-
-
-/* .SA_box3 {
-    background-color: blue;
-    border-radius: 0px 0px 40px 40px;
-} */
-
-
-/* 
-
-.SA_box5 {
-    width: 0px;
-    height: 0px;
-    background-color: black;
-    border-width: 150px;
-    border-style: solid;
-    border-left-color: green;
-    border-right-color: transparent;
-    border-top-color: transparent;
-    border-bottom-color:transparent;
-    position: absolute;
-    top: 0px;
-    left: 20px;
-}
-
-.SA_box6 {
-    width: 0px;
-    height: 0px;
-    background-color: green;
-    border-width: 100px;
-    border-style: solid;
-    border-left-color: yellow;
-    border-right-color: transparent;
-    border-top-color: transparent;
-    border-bottom-color:transparent;
-    position: absolute;
-    top: 50px;
-    left: 0px;
-}
-
-.SA_box7 {
-    width: 0px;
-    height: 0px;
-    background-color: yellow;
-    border-width: 75px;
-    border-style: solid;
-    border-left-color: black;
-    border-right-color: transparent;
-    border-top-color: transparent;
-    border-bottom-color:transparent;
-    position: absolute;
-    top: 112.5px;
-    left: 0px;
-} */
-
-.triangle {
-   
-    /* width: 500px;
-    height: 500px; */
-    /* background-color: aqua; */
-    border-width: 3em;
-    border-style: solid;
-    border-left-color: black;
-    border-right-color: ghostwhite;
-    border-top-color: firebrick;
-    border-bottom-color:darkblue;
-    /* border: 150px solid transparent; */
-    /* border-top: 0; */
-    /* border-right: 300px solid red; */
-  }
