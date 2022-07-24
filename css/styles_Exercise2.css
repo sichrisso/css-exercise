@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    position: relative;
     
 }
 
@@ -113,6 +114,7 @@
     height: 50px;
     border-radius: 10px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .btn2 {
@@ -123,6 +125,7 @@
     background-color: rgb(27, 27, 115);
     margin-left: 10px;
     color: white;
+    cursor: pointer;
 }
 
 .testimonial {
@@ -254,36 +257,109 @@
 
 footer {
     width: auto;
-    height: 500px;
-    padding: 30px;
+    height: 550px;
+    padding: 70px 50px 0px 50px;
+    position: relative;
     background-color: ghostwhite;
 }
 
-footer h1 {
-    
+.bottom h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
 }
-
-footer ul, li, a {
+.bottom a {
+    font-size: 20px;
+}
+.pay a{
+    font-weight: bold;
+}
+.botto + p {
+    flex-wrap: wrap;
+    grid-column-start: auto;
+}
+footer ul, li a {
     list-style: none;
     color: black;
     text-align: start;
     text-decoration: none;
+}
+
+footer li {
     margin-bottom: 20px;
 }
 
+footer ul {
+    margin-left: 0;
+    padding-left: 0;
+}
 .bottom {
     padding: 30px;
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
 
+.social h3{
+    margin-bottom: 20px;
+}
 .social img {
     width: 20px;
     height: 20px;
+    padding-top: 30px;
+    padding-right: 5px ;
+    opacity: 0.5;
+}
+
+.social p{
+    font-size: 20px;
+}
+
+.pay img {
+    gap: 10px;
+    margin-bottom: 6PX;
+    margin-top: 10px;
+}
+.pay p {
+    font-size: 20px;
+}
+
+.pay p:nth-of-type(even) {
+    margin-bottom: 20px;
 }
 
 .logoname img{
     margin: 0;
-    height: 50px;
+    height: 40px;
+    padding-left: 40px;
+}
+
+.copy {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    bottom: 40px;
+    right: 90px;
+}
+
+.soc{
+   float: left; 
+   position: absolute;
+   bottom: 40px;
+   padding-left: 50px;
+  
+}
+.soc img {
+    width: 100px;
+    height: 100px;
+}
+
+.fixed img{
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 3px 3px rgb(178, 178, 178, 0.3);
+    
 }
 
