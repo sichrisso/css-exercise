@@ -1,0 +1,228 @@
+.container1 {
+    margin: 0;
+    width: 400px;
+    background-color: white;
+    position: relative;
+    
+}
+
+.flag {
+    width: 400px;
+    height: 100px;
+}
+
+.Eth_box1 {
+    background-color: green; 
+    border-radius: 40px 40px 0px 0px;
+}
+
+.Eth_box2 {
+    background-color: yellow;
+}
+
+.Eth_box3 {
+    background-color: red;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    background-color: blue;
+    position: absolute;
+    top: 80px;
+    left: 130px;
+    /* justify-content: center; */
+}
+
+.container2 {
+    margin: 0;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    
+}
+
+.SA_box7 {
+    /* width: 200px; */
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.SA_box10 {
+    /* width: 200px; */
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    border-radius: 0px 0px 40px 40px;
+}
+.SA_box1 {
+    background-color: white;
+    height: 300px;
+    width: 50px; 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 40px 0px 0px 40px;
+}
+
+.SA_box2 {
+    width: 0px;
+    height: 0px;
+    /* background-color: white; */
+    border-width: 150px;
+    border-style: solid;
+    border-left-color: white;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color:transparent;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+.SA_box8 {
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+.SA_box3 {
+    background-color: green;
+    height: 300px;
+    width: 40px; 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 40px 0px 0px 40px;
+}
+
+.SA_box4 {
+    width: 0px;
+    height: 0px;
+    /* background-color: orange; */
+    border-width: 150px;
+    border-style: solid;
+    border-left-color: green;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color:transparent;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+}
+
+.SA_box9 {
+    height: 80px;
+    background-color: green;
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.SA_box5 {
+    width: 0px;
+    height: 0px;
+    /* background-color: green; */
+    border-width: 110px;
+    border-style: solid;
+    border-left-color: yellow;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color:transparent;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.SA_box6 {
+    width: 0px;
+    height: 0px;
+    /* background-color: yellow; */
+    border-width: 90px;
+    border-style: solid;
+    border-left-color: black;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color:transparent;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+}
+
+
+
+/* .SA_box3 {
+    background-color: blue;
+    border-radius: 0px 0px 40px 40px;
+} */
+
+
+/* 
+
+.SA_box5 {
+    width: 0px;
+    height: 0px;
+    background-color: black;
+    border-width: 150px;
+    border-style: solid;
+    border-left-color: green;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color:transparent;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+.SA_box6 {
+    width: 0px;
+    height: 0px;
+    background-color: green;
+    border-width: 100px;
+    border-style: solid;
+    border-left-color: yellow;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color:transparent;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+.SA_box7 {
+    width: 0px;
+    height: 0px;
+    background-color: yellow;
+    border-width: 75px;
+    border-style: solid;
+    border-left-color: black;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color:transparent;
+    position: absolute;
+    top: 112.5px;
+    left: 0px;
+} */
+
+.triangle {
+   
+    /* width: 500px;
+    height: 500px; */
+    /* background-color: aqua; */
+    border-width: 3em;
+    border-style: solid;
+    border-left-color: black;
+    border-right-color: ghostwhite;
+    border-top-color: firebrick;
+    border-bottom-color:darkblue;
+    /* border: 150px solid transparent; */
+    /* border-top: 0; */
+    /* border-right: 300px solid red; */
+  }
